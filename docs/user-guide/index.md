@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Functions in S_TIDE",
+    "title": "index",
     "description": "",
     "navbar": true,
     "sideBar": true,

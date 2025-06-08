@@ -36,8 +36,16 @@ import { defineConfig } from "vitepress";
     "sidebar": {
       "/about/": [
         {
-          "text": "About",
+          "text": "About S_TIDE",
           "link": "/about/index"
+        },
+        {
+          "text": "About Dr. Haidong Pan",
+          "link": "/about/About Dr. Haidong Pan"
+        },
+        {
+          "text": "About Jiashun Wang",
+          "link": "/about/About Jiashun Wang"
         }
       ],
       "/reference/": [],
@@ -103,7 +111,7 @@ import { defineConfig } from "vitepress";
     ],
     "externalLinkIcon": false,
     "i18nRouting": true,
-    "logo": "/images/S_Tide-logo.svg",
+    "logo": "/images/S_Tide-logo3.svg",
     "outline": {
       "level": 2,
       "label": "On this page"
@@ -216,7 +224,7 @@ import { defineConfig } from "vitepress";
     },
     "siteTitle": "S_TIDE",
     "footer": {
-      "message": "Released under the MIT License.",
+      "message": "Released under the MIT License. | This website is maintained by Jiashun Wang",
       "copyright": "Copyright © 2018-present Ph.D. Haidong Pan"
     }
   },

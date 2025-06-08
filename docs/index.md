@@ -6,10 +6,10 @@
     "hero": {
         "name": "S_TIDE",
         "text": "A comprehensive toolbox for tidal analysis",
-        "tagline": "Happy research",
+        "tagline": "MATLAB toolbox for tidal analysis",
         "image": {
-            "src": "/images/S_Tide-logo.svg",
-            "alt": "S_Tide LOGO"
+            "src": "/images/S_Tide-logo3.svg",
+            "alt": "S_TIDE LOGO"
         },
         "actions": [
             {
@@ -41,6 +41,14 @@
         {
             "title": "",
             "details": ""
+        },
+        {
+            "title": "User Guide",
+            "details": "S_TIDE 用户指南"
+        },
+        {
+            "title": "About",
+            "details": "关于 S_TIDE"
         }
     ],
     "description": "",
