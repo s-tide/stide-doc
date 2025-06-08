@@ -1,10 +1,10 @@
 ---
 {
     "layout": "home",
-    "title": "S_Tide | A comprehensive toolbox for tidal analysis",
-    "titleTemplate": "S_Tide",
+    "title": "S_TIDE | A comprehensive toolbox for tidal analysis",
+    "titleTemplate": "S_TIDE",
     "hero": {
-        "name": "S_Tide",
+        "name": "S_TIDE",
         "text": "A comprehensive toolbox for tidal analysis",
         "tagline": "Happy research",
         "image": {
@@ -32,7 +32,7 @@
     "features": [
         {
             "title": "Tutorial",
-            "details": "S_Tide MATLAB 教程一站式解决！"
+            "details": "S_TIDE MATLAB 教程一站式解决！"
         },
         {
             "title": "Examples",

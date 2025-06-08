@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 	export default defineConfig({
-  "title": "S_Tide",
+  "title": "S_TIDE",
   "description": "A comprehensive toolbox for tidal analysis",
   "themeConfig": {
     "nav": [
@@ -214,7 +214,7 @@ import { defineConfig } from "vitepress";
       "prev": "Previous page",
       "next": "Next Page"
     },
-    "siteTitle": "S_Tide",
+    "siteTitle": "S_TIDE",
     "footer": {
       "message": "Released under the MIT License.",
       "copyright": "Copyright © 2018-present Ph.D. Haidong Pan"
