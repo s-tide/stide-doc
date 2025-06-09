@@ -32,6 +32,10 @@ import { defineConfig } from "vitepress";
           "link": "/about/index"
         },
         {
+          "text": "About the Website",
+          "link": "/about/website"
+        },
+        {
           "text": "Dr. Haidong Pan",
           "link": "/about/Haidong-Pan"
         },

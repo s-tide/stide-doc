@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Jiashun Wang",
+    "title": "website",
     "description": "",
     "navbar": true,
     "sideBar": true,
@@ -32,7 +32,6 @@
 }
 ---
 
-# About Jiashun Wang
 
-[Jiashun Wang](https://jia-shun.wang) is the builder and maintainer of this website.
-![Live poetically (Jiashun Wang)](/images/jiashun-wang.png)
+# About the Website
+This website is built using [VitePress](https://vitepress.dev/), a static site generator powered by Vite. It is designed to be fast, lightweight, and easy to use.
