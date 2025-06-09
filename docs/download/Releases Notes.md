@@ -36,14 +36,8 @@
 
 This page lists the releases of the S_TIDE project. Each release includes a summary of changes, bug fixes, and new features.
 
-## Version 1.0.0 (2023-10-01)
+## Version 1.0.0 (2018-10-01)
 
 - Initial release of S_TIDE.
 - Added basic tidal analysis functionalities.
 
-## Version 1.1.0 (2023-11-01)
-
-- Improved tidal prediction accuracy.
-- Added support for additional tidal constituents.
-
-## Version 1.2.0 (2023-12-01)
