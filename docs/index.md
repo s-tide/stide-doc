@@ -5,24 +5,32 @@
     "titleTemplate": "S_TIDE",
     "hero": {
         "name": "S_TIDE",
-        "text": "A comprehensive toolbox for tidal analysis",
-        "tagline": "MATLAB toolbox for tidal analysis",
+        "text": "Tidal Analysis ",
+        "tagline": "S_TIDE is a comprehensive tidal analysis toolbox based on MATLAB, developed by Dr. Haidong Pan.",
         "image": {
             "src": "/images/S_Tide-logo3.svg",
             "alt": "S_TIDE LOGO"
         },
         "actions": [
             {
-                "text": "Tutorials",
-                "link": "/Tutorials/"
+                "theme": "brand",
+                "text": "Download",
+                "link": "/Download/"
             },
             {
-                "text": "Examples",
-                "link": "/examples/"
-            },
-            {
+                "theme": "brand",
                 "text": "User Guide",
                 "link": "/user-guide/"
+            },
+            {
+                "theme": "alt",
+                "text": "Publications",
+                "link": "/publications/"
+            },
+            {
+                "theme": "alt",
+                "text": "About",
+                "link": "/about/"
             }
         ],
         "description": "",
@@ -31,24 +39,19 @@
     },
     "features": [
         {
-            "title": "Tutorial",
-            "details": "S_TIDE MATLAB 教程一站式解决！"
+            "icon": "🐱",
+            "title": "Open",
+            "details": "All code is open-sourced under the MIT license and follows open standards and protocols."
         },
         {
-            "title": "Examples",
-            "details": ""
+            "icon": "📊",
+            "title": "Comprehensive",
+            "details": "S_TIDE provides a wide range of tidal analysis methods, including harmonic analysis, tidal prediction, and more."
         },
         {
-            "title": "",
-            "details": ""
-        },
-        {
-            "title": "User Guide",
-            "details": "S_TIDE 用户指南"
-        },
-        {
-            "title": "About",
-            "details": "关于 S_TIDE"
+            "icon": "🧑‍🤝‍🧑",
+            "title": "User-Friendly",
+            "details": "Designed for ease of use, S_TIDE includes a user-friendly interface and extensive documentation."
         }
     ],
     "description": "",

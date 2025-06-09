@@ -44,4 +44,4 @@ Pan, H., X. Lv, Y. Wang, P. Matte, H. Chen, and G. Jin (2018), Exploration of Ti
 
 # Acknowledgements
 
-I appreciate Rich Pawlowicz for developing the T\_Tide package, which is the basis of S\_TIDE. I also thank Mr. Jiashun Wang for creating this web page.
+I appreciate Rich Pawlowicz for developing the T\_Tide package, which is the basis of S\_TIDE. I also thank Jiashun Wang for creating this web page.

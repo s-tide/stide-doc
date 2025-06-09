@@ -5,16 +5,12 @@ import { defineConfig } from "vitepress";
   "themeConfig": {
     "nav": [
       {
-        "text": "About",
-        "link": "/about"
+        "text": "Home",
+        "link": "/"
       },
       {
-        "text": "Tutorial",
-        "link": "/tutorial"
-      },
-      {
-        "text": "Examples",
-        "link": "/examples"
+        "text": "Download",
+        "link": "/Download"
       },
       {
         "text": "User Guide",
@@ -25,12 +21,8 @@ import { defineConfig } from "vitepress";
         "link": "/Publications"
       },
       {
-        "text": "Gallery",
-        "link": "/Gallery"
-      },
-      {
-        "text": "Releases",
-        "link": "/Releases"
+        "text": "About",
+        "link": "/about"
       }
     ],
     "sidebar": {
@@ -40,12 +32,12 @@ import { defineConfig } from "vitepress";
           "link": "/about/index"
         },
         {
-          "text": "About Dr. Haidong Pan",
-          "link": "/about/About Dr. Haidong Pan"
+          "text": "Dr. Haidong Pan",
+          "link": "/about/Dr.-Haidong-Pan"
         },
         {
-          "text": "About Jiashun Wang",
-          "link": "/about/About Jiashun Wang"
+          "text": "Jiashun Wang",
+          "link": "/about/Jiashun-Wang"
         }
       ],
       "/reference/": [],
@@ -93,12 +85,22 @@ import { defineConfig } from "vitepress";
           "text": "Tutorial",
           "link": "/tutorial/index"
         }
+      ],
+      "/download/": [
+        {
+          "text": "Download",
+          "link": "/download/index"
+        },
+        {
+          "text": "Releases Notes",
+          "link": "/download/Releases Notes"
+        }
       ]
     },
     "socialLinks": [
       {
         "icon": "github",
-        "link": "https://github.com/stide-developers"
+        "link": "https://github.com/s-tide"
       },
       {
         "icon": "researchgate",
@@ -216,7 +218,7 @@ import { defineConfig } from "vitepress";
     "darkModeSwitchTitle": "切换到深色模式",
     "editLink": {
       "text": "Edit this page on GitHub",
-      "pattern": "https://github.com/stide-developers/stide-doc/edit/main/docs/:path"
+      "pattern": "https://github.com/stide/stide-doc/edit/main/docs/:path"
     },
     "docFooter": {
       "prev": "Previous page",
@@ -224,8 +226,8 @@ import { defineConfig } from "vitepress";
     },
     "siteTitle": "S_TIDE",
     "footer": {
-      "message": "Released under the MIT License. | This website is maintained by Jiashun Wang",
-      "copyright": "Copyright © 2018-present Ph.D. Haidong Pan"
+      "message": "Released under the MIT License.",
+      "copyright": "Copyright © 2018-present Ph.D. Haidong Pan | This website is maintained by Jiashun Wang"
     }
   },
   "srcDir": "./",

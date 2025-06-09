@@ -1,6 +1,6 @@
 ---
 {
-    "title": "index",
+    "title": "User Guide",
     "description": "",
     "navbar": true,
     "sideBar": true,

@@ -1,6 +1,6 @@
 ---
 {
-    "title": "index",
+    "title": "Releases",
     "description": "",
     "navbar": true,
     "sideBar": true,

@@ -1,15 +1,15 @@
 ---
 {
-    "title": "",
+    "title": "Jiashun Wang",
     "description": "",
     "navbar": true,
     "sideBar": true,
-    "footer": false,
+    "footer": true,
     "outline": [
         1,
         3
     ],
-    "editLink": false,
+    "editLink": true,
     "lastUpdated": true,
     "aside": "right",
     "layout": "doc",
@@ -32,4 +32,5 @@
 }
 ---
 
-
+# About Jiashun Wang
+![Live poetically (Jiashun Wang)](/images/jiashun-wang.png)
