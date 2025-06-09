@@ -33,7 +33,7 @@ import { defineConfig } from "vitepress";
         },
         {
           "text": "Dr. Haidong Pan",
-          "link": "/about/Dr.-Haidong-Pan"
+          "link": "/about/Haidong-Pan"
         },
         {
           "text": "Jiashun Wang",
