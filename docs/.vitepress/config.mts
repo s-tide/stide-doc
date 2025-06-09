@@ -218,7 +218,7 @@ import { defineConfig } from "vitepress";
     "darkModeSwitchTitle": "切换到深色模式",
     "editLink": {
       "text": "Edit this page on GitHub",
-      "pattern": "https://github.com/stide/stide-doc/edit/main/docs/:path"
+      "pattern": "https://github.com/s-tide/stide-doc/edit/main/docs/:path"
     },
     "docFooter": {
       "prev": "Previous page",
