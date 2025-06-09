@@ -237,7 +237,7 @@ import { defineConfig } from "vitepress";
   "srcDir": "./",
   "assetsDir": "static",
   "sitemap": {
-    "hostname": "https://example.com",
+    "hostname": "https://github.com/s-tide/stide-doc",
     "lastmodDateOnly": false
   },
   "locales": {},
