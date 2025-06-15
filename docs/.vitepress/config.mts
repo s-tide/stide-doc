@@ -244,7 +244,7 @@ import { defineConfig } from "vitepress";
   "cacheDir": "./.vitepress/cache",
   "titleTemplate": "A comprehensive toolbox for tidal analysis",
   "lang": "en-US",
-  "base": "/docs/",
+  "base": "/stide-doc/",
   "outDir": "./.vitepress/dist",
   "cleanUrls": true,
   "rewrites": {
