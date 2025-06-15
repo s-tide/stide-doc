@@ -6,7 +6,7 @@
     "hero": {
         "name": "S_TIDE",
         "text": "Tidal Analysis Toolbox",
-        "tagline": "developed by Dr. Haidong Pan in MATLAB, for oceanographic research.",
+        "tagline": "for oceanographic research, developed by Dr. Haidong Pan in MATLAB.",
         "image": {
             "src": "/images/S_Tide-logo3.svg",
             "alt": "S_TIDE LOGO"
