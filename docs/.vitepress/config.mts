@@ -237,14 +237,14 @@ import { defineConfig } from "vitepress";
   "srcDir": "./",
   "assetsDir": "static",
   "sitemap": {
-    "hostname": "https://s-tide.github.com/stide-doc/",
+    "hostname": "https://s-tide.github.com/",
     "lastmodDateOnly": false
   },
   "locales": {},
   "cacheDir": "./.vitepress/cache",
   "titleTemplate": "A comprehensive toolbox for tidal analysis",
   "lang": "en-US",
-  "base": "/",
+  "base": "/stide-doc/",
   "outDir": "./.vitepress/dist",
   "cleanUrls": true,
   "rewrites": {
