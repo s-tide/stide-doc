@@ -5,8 +5,8 @@
     "titleTemplate": "S_TIDE",
     "hero": {
         "name": "S_TIDE",
-        "text": "Tidal Analysis ",
-        "tagline": "S_TIDE is a comprehensive tidal analysis toolbox based on MATLAB, developed by Dr. Haidong Pan.",
+        "text": "Tidal Analysis Toolbox",
+        "tagline": "S_TIDE is a comprehensive tidal analysis toolbox developed by Dr. Haidong Pan using MATLAB. It is designed specifically for tidal analysis applications in oceanography, providing researchers with powerful tools to study and interpret tidal phenomena.",
         "image": {
             "src": "/images/S_Tide-logo3.svg",
             "alt": "S_TIDE LOGO"
@@ -15,7 +15,7 @@
             {
                 "theme": "brand",
                 "text": "Download",
-                "link": "/Download/"
+                "link": "/download/"
             },
             {
                 "theme": "brand",
