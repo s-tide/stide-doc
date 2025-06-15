@@ -104,7 +104,7 @@ import { defineConfig } from "vitepress";
     "socialLinks": [
       {
         "icon": "github",
-        "link": "https://github.com/s-tide"
+        "link": "https://github.com/s-tide/stide-doc"
       },
       {
         "icon": "researchgate",
