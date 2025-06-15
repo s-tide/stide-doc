@@ -10,15 +10,15 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "Download",
-        "link": "/Download"
+        "link": "/download"
       },
       {
         "text": "User Guide",
-        "link": "/User-Guide"
+        "link": "/user-guide"
       },
       {
         "text": "Publications",
-        "link": "/Publications"
+        "link": "/publications"
       },
       {
         "text": "About",
