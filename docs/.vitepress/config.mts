@@ -108,7 +108,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "icon": "researchgate",
-        "link": "https://www.researchgate.net/profile/Haidong-Pan"
+        "link": "https://www.researchgate.net/publication/369066450_S_TIDE_toolbox"
       },
       {
         "icon": "rss",
