@@ -1,127 +1,62 @@
 import { defineConfig } from "vitepress";
-	export default defineConfig({
+
+export default defineConfig({
   "title": "S_TIDE",
   "description": "A comprehensive toolbox for tidal analysis",
+  "lastUpdated": true, // 显示最后更新时间
+  "ignoreDeadLinks": true, //忽略死链查询，即文档中嵌入的一些链接无法访问也不会导致站点报错
+
   "themeConfig": {
     "nav": [
-      {
-        "text": "Home",
-        "link": "/"
-      },
-      {
-        "text": "Download",
-        "link": "/download"
-      },
-      {
-        "text": "User Guide",
-        "link": "/user-guide"
-      },
-      {
-        "text": "Publications",
-        "link": "/publications"
-      },
-      {
-        "text": "About",
-        "link": "/about"
-      }
+      { "text": "Home", "link": "/" },
+      { "text": "Download", "link": "/download" },
+      { "text": "User Guide", "link": "/user-guide" },
+      { "text": "Publications", "link": "/publications" },
+      { "text": "About", "link": "/about" }
     ],
     "sidebar": {
       "/about/": [
-        {
-          "text": "About S_TIDE",
-          "link": "/about/index"
-        },
-        {
-          "text": "About the Website",
-          "link": "/about/website"
-        },
-        {
-          "text": "Dr. Haidong Pan",
-          "link": "/about/Haidong-Pan"
-        },
-        {
-          "text": "Jiashun Wang",
-          "link": "/about/Jiashun-Wang"
-        }
+        { "text": "About S_TIDE", "link": "/about/index" },
+        { "text": "About the Website", "link": "/about/website" },
+        { "text": "Dr. Haidong Pan", "link": "/about/Haidong-Pan" },
+        { "text": "Jiashun Wang", "link": "/about/Jiashun-Wang" }
       ],
       "/reference/": [],
       "/examples/": [
-        {
-          "text": "ex1",
-          "link": "/examples/ex1"
-        },
-        {
-          "text": "ex2",
-          "link": "/examples/ex2"
-        },
-        {
-          "text": "examples",
-          "link": "/examples/index"
-        }
+        { "text": "ex1", "link": "/examples/ex1" },
+        { "text": "ex2", "link": "/examples/ex2" },
+        { "text": "examples", "link": "/examples/index" }
       ],
       "/papers/": [
-        {
-          "text": "index",
-          "link": "/papers/index"
-        }
+        { "text": "index", "link": "/papers/index" }
       ],
       "/releases/": [
-        {
-          "text": "Releases Notes",
-          "link": "/releases/index"
-        }
+        { "text": "Releases Notes", "link": "/releases/index" }
       ],
       "/tutorials/": [],
       "/user-guide/": [
-        {
-          "text": "Functions in S_TIDE",
-          "link": "/user-guide/index"
-        }
+        { "text": "Functions in S_TIDE", "link": "/user-guide/index" }
       ],
       "/publications/": [
-        {
-          "text": "Publications of S_TIDE",
-          "link": "/publications/index"
-        }
+        { "text": "Publications of S_TIDE", "link": "/publications/index" }
       ],
       "/tutorial/": [
-        {
-          "text": "Tutorial",
-          "link": "/tutorial/index"
-        }
+        { "text": "Tutorial", "link": "/tutorial/index" }
       ],
       "/download/": [
-        {
-          "text": "Download",
-          "link": "/download/index"
-        },
-        {
-          "text": "Releases Notes",
-          "link": "/download/Releases Notes"
-        }
+        { "text": "Download", "link": "/download/index" },
+        { "text": "Releases Notes", "link": "/download/Releases Notes" }
       ]
     },
     "socialLinks": [
-      {
-        "icon": "github",
-        "link": "https://github.com/s-tide/stide-doc"
-      },
-      {
-        "icon": "researchgate",
-        "link": "https://www.researchgate.net/publication/369066450_S_TIDE_toolbox"
-      },
-      {
-        "icon": "rss",
-        "link": "/feed.xml"
-      }
+      { "icon": "github", "link": "https://github.com/s-tide/stide-doc" },
+      { "icon": "researchgate", "link": "https://www.researchgate.net/publication/369066450_S_TIDE_toolbox" },
+      { "icon": "rss", "link": "/feed.xml" }
     ],
     "externalLinkIcon": false,
     "i18nRouting": true,
     "logo": "/images/S_Tide-logo3.svg",
-    "outline": {
-      "level": 2,
-      "label": "On this page"
-    },
+    "outline": { "level": 2, "label": "On this page" },
     "search": {
       "provider": "local",
       "options": {
@@ -250,5 +185,31 @@ import { defineConfig } from "vitepress";
   "rewrites": {
     "packages/pkg-a/src/pkg-a-docs.md": "pkg-a/index.md",
     "packages/pkg-b/src/pkg-b-docs.md": "pkg-b/index.md"
-  }
+  },
+
+  "head": [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/images/favicon.ico", //添加网站ico图标
+      },
+    ],
+    // google analytics
+    [
+      "script",
+      {
+        "async": "true",
+        "src": "https://www.googletagmanager.com/gtag/js?id=这里换成你在谷歌analytics的key",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', '这里换成你在谷歌analytics的key');`,
+    ],
+  ],
 });
