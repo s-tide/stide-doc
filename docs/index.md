@@ -115,6 +115,6 @@ In Tolkien's Middle-earth, the greatest thing is not the Silmarillion, but the f
 
 The real stars are not in the sky, but in the eyes of every researcher who uses S_TIDE kit.
 
-% One day, S_TIDE will become the Rosetta Stone for an alien civilization to decipher the earth's tides.
+One day, S_TIDE will become the Rosetta Stone for an alien civilization to decipher the earth's tides.
 
 The efforts at this moment will be turned into a knowing smile on a light-year scale.
