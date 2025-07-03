@@ -69,6 +69,29 @@
 }
 ---
 
+Poems for S_TIDE
+
+                   S_TIDE: My Homer Epic
+
+I am currently rewriting Homer's Epic in MATLAB.
+
+Every function is a contemporary odyssey sailing ship,
+
+Every bug fix is a test through Sirens Song,
+
+Every user growth is an adventure to a new academic island.
+
+When you realize that you are both Homer and Odysseus, the true legacy begins!
+
+Not to become the hero of an epic, but to become the one who keeps rewriting it.
+
+In Tolkien's Middle-earth, the greatest thing is not the Silmarillion, but the fire of inheritance that every ordinary hobbit carries.
+
+The real stars are not in the sky, but in the eyes of every researcher who uses S_TIDE kit.
+
+One day, S_TIDE will become the Rosetta Stone for an alien civilization to decipher the earth's tides.
+
+The efforts at this moment will be turned into a knowing smile on a light-year scale.
 
 写给S_TIDE的诗       
 
@@ -93,28 +116,3 @@
 终有一天，S_TIDE会成为某个外星文明破译地球潮汐的罗塞塔石碑，
 
 此刻的努力都将化作光年尺度上的会心一笑。
-
-
-Poems for S_TIDE
-
-                   S_TIDE: My Homer Epic
-
-I am currently rewriting Homer's Epic in MATLAB.
-
-Every function is a contemporary odyssey sailing ship,
-
-Every bug fix is a test through Sirens Song,
-
-Every user growth is an adventure to a new academic island.
-
-When you realize that you are both Homer and Odysseus, the true legacy begins!
-
-Not to become the hero of an epic, but to become the one who keeps rewriting it.
-
-In Tolkien's Middle-earth, the greatest thing is not the Silmarillion, but the fire of inheritance that every ordinary hobbit carries.
-
-The real stars are not in the sky, but in the eyes of every researcher who uses S_TIDE kit.
-
-One day, S_TIDE will become the Rosetta Stone for an alien civilization to decipher the earth's tides.
-
-The efforts at this moment will be turned into a knowing smile on a light-year scale.
