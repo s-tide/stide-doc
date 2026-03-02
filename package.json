@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "@types/node": "^25.3.3",
     "vitepress": "^2.0.0-alpha.16"
   },
   "name": "stide-doc",
