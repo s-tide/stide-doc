@@ -198,38 +198,14 @@ export default defineConfig({
   },
 
   // ==================== 多语言配置 ====================
-  locales: {
-    // 基础配置（当前仅英文）
-    root: {
-      label: 'English',
-      lang: 'en-US',
-      // 可扩展的翻译键（示例）
-      // nav: {
-      //   home: 'Home',
-      //   download: 'Download'
-      // }
-    },
-    // 中文配置（注释状态，按需启用）
-    // zh: {
-    //   label: '简体中文',
-    //   lang: 'zh-CN',
-    //   link: '/zh/', // 多语言路径前缀
-    //   title: 'S_TIDE | 潮汐分析工具箱',
-    //   description: '潮汐分析的综合性工具箱'
-    // }
-  }, 
-
+  locales: {}, // 可扩展多语言
   cacheDir: ".vitepress/cache",
   titleTemplate: "A comprehensive toolbox for tidal analysis",
   lang: "en-US",
-
-// ==================== 动态 base 路径 ====================
-// 优先级: 环境变量 > 多语言路径 > 默认根路径
-base: process.env.BASE_URL || 
-      (process.env.VITE_LANG === 'zh' ? '/zh/' : '/'), // 示例：根据语言动态设置
-
-outDir: ".vitepress/dist",
-cleanUrls: true, // 生成无 .html 后缀的 URL
+  base: "/", // 部署子路径时需修改（如 GitHub Pages）
+  //base: "https://s-tide.github.io/stide-doc/", // GitHub Pages 部署路径
+  outDir: ".vitepress/dist",
+  cleanUrls: true, // 生成无 .html 后缀的 URL
 
   // ==================== 路径重写规则 ====================
   rewrites: {
