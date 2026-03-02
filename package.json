@@ -5,6 +5,25 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.5"
-  }
+    "vitepress": "^2.0.0-alpha.16"
+  },
+  "name": "stide-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-tide/stide-doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/s-tide/stide-doc/issues"
+  },
+  "homepage": "https://github.com/s-tide/stide-doc#readme"
 }

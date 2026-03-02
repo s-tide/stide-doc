@@ -31,8 +31,7 @@
     }
 }
 ---
-
 # About Jiashun Wang
 
 [Jiashun Wang](https://jia-shun.wang) is the builder and maintainer of this website.
-![Live poetically (Jiashun Wang)](/images/jiashun-wang.png)
+![Live poetically (Jiashun Wang)](jiashun-wang.png)

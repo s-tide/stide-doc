@@ -169,18 +169,18 @@ export default defineConfig({
       "copyright": "Copyright © 2018-present Ph.D. Haidong Pan | This website is maintained by Jiashun Wang"
     }
   },
-  "srcDir": "./",
-  "assetsDir": "static",
+  "srcDir": "pages",
+  "assetsDir": "assets",
   "sitemap": {
     "hostname": "https://s-tide.github.com/stide-doc/",
     "lastmodDateOnly": false
   },
   "locales": {},
-  "cacheDir": "./.vitepress/cache",
+  "cacheDir": ".vitepress/cache",
   "titleTemplate": "A comprehensive toolbox for tidal analysis",
   "lang": "en-US",
-  "base": "/stide-doc/",
-  "outDir": "./.vitepress/dist",
+  "base": "/",
+  "outDir": ".vitepress/dist",
   "cleanUrls": true,
   "rewrites": {
     "packages/pkg-a/src/pkg-a-docs.md": "pkg-a/index.md",
@@ -192,7 +192,7 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        href: "/images/favicon.ico", //添加网站ico图标
+        href: "favicon.ico", //添加网站ico图标
       },
     ],
     // google analytics

@@ -8,7 +8,7 @@
         "text": "Tidal Analysis Toolbox",
         "tagline": "for oceanographic research, developed by Dr. Haidong Pan in MATLAB.",
         "image": {
-            "src": "/images/S_Tide-logo3.svg",
+            "src": "S_Tide-logo3.svg",
             "alt": "S_TIDE LOGO"
         },
         "actions": [
@@ -68,10 +68,9 @@
     "custom": {}
 }
 ---
-
 Poems for S_TIDE
 
-                   S_TIDE: My Homer Epic
+    S_TIDE: My Homer Epic
 
 I am currently rewriting Homer's Epic in MATLAB.
 
@@ -93,9 +92,9 @@ One day, S_TIDE will become the Rosetta Stone for an alien civilization to decip
 
 The efforts at this moment will be turned into a knowing smile on a light-year scale.
 
-写给S_TIDE的诗       
+写给S_TIDE的诗
 
-                       S_TIDE:我的《荷马史诗》
+    S_TIDE:我的《荷马史诗》
 
 我正在用MATLAB语言重写《荷马史诗》，
 
