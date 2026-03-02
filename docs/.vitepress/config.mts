@@ -203,7 +203,7 @@ export default defineConfig({
   titleTemplate: "A comprehensive toolbox for tidal analysis",
   lang: "en-US",
   base: "/", // 部署子路径时需修改（如 GitHub Pages）
-  //base: "https://s-tide.github.io/stide-doc/", // GitHub Pages 部署路径
+  //base: "/stide-doc/", // GitHub Pages 部署路径
   outDir: ".vitepress/dist",
   cleanUrls: true, // 生成无 .html 后缀的 URL
 
